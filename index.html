@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Info</title>
+  
+  <link rel="stylesheet" href="styles.css"></head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Contact us</h1>
+    <form action="https://formsubmit.co/mytextinga@gmail.com" method="POST">
+      <div class="inner-container">
+        <label for="name">Name:</label>
+        <input type="text" class="name" name="Name:" placeholder="your name" required>
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="Email:" placeholder="Email id" required>
+        <label for="message">Message:</label>
+        <textarea name="Message:" class="message" cols="10" rows="4"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
